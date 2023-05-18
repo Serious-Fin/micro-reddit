@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_17_205838) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_18_105145) do
+# Could not dump table "comments" because of following StandardError
+#   Unknown type 'foreign_key' for column 'post_id'
+
 # Could not dump table "posts" because of following StandardError
 #   Unknown type 'foreign_key' for column 'user_id'
 
